@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Uni/DLD Lab/Ex2/Modelsim
+vALU
+!s110 1620228097
+!i10b 1
+!s100 W4]FPM^0>5zoN5gNa8m>Q0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaAKVDfVS^c`837FT1j6o^0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Uni/CA/CA#2
+w1620228095
+8E:/Uni/CA/CA#2/ALU.v
+FE:/Uni/CA/CA#2/ALU.v
+!i122 2
+Z3 L0 3 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1620228097.000000
+!s107 E:/Uni/CA/CA#2/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vMemoryBlock
+!s110 1620227936
+!i10b 1
+!s100 gn9>X=>zI:?OP4dJozUoL0
+R0
+Ihn^4o0HdB>gBfziBIh=i<1
+R1
+R2
+w1620227935
+8E:/Uni/CA/CA#2/MemoryBlock.v
+FE:/Uni/CA/CA#2/MemoryBlock.v
+!i122 1
+L0 3 13
+R4
+r1
+!s85 0
+31
+!s108 1620227936.000000
+!s107 E:/Uni/CA/CA#2/MemoryBlock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/MemoryBlock.v|
+!i113 1
+R5
+R6
+n@memory@block
+vMux
+!s110 1620228946
+!i10b 1
+!s100 RJfm[6:ZG:JfH[LGZobaT0
+R0
+I5L?JPeJUG2K9TSIQ:zZd90
+R1
+R2
+w1620228670
+8E:/Uni/CA/CA#2/Mux.v
+FE:/Uni/CA/CA#2/Mux.v
+!i122 6
+L0 3 17
+R4
+r1
+!s85 0
+31
+Z7 !s108 1620228946.000000
+!s107 E:/Uni/CA/CA#2/Mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/Mux.v|
+!i113 1
+R5
+R6
+n@mux
+vRegisterFile
+!s110 1620227901
+!i10b 1
+!s100 Bo=2am>2HNc<TE`lU7Z091
+R0
+IDB4TRN[N7f?eTMXhjCY;e1
+R1
+R2
+w1620227898
+8E:/Uni/CA/CA#2/RegisterFile.v
+FE:/Uni/CA/CA#2/RegisterFile.v
+!i122 0
+R3
+R4
+r1
+!s85 0
+31
+!s108 1620227901.000000
+!s107 E:/Uni/CA/CA#2/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/RegisterFile.v|
+!i113 1
+R5
+R6
+n@register@file
+vShiftLeft
+!s110 1620228947
+!i10b 1
+!s100 N2OYj3^;3AKa5_3;2<z8b1
+R0
+I24mi<E75;F>3A0X1aG^ne2
+R1
+R2
+w1620228765
+8E:/Uni/CA/CA#2/ShiftLeft.v
+FE:/Uni/CA/CA#2/ShiftLeft.v
+!i122 7
+Z8 L0 3 11
+R4
+r1
+!s85 0
+31
+R7
+!s107 E:/Uni/CA/CA#2/ShiftLeft.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/ShiftLeft.v|
+!i113 1
+R5
+R6
+n@shift@left
+vSignExtend
+!s110 1620229166
+!i10b 1
+!s100 h>7e[fB2aGcTY84m3ZbcA1
+R0
+IIT==n0A93<oPI5_]Pd:_D3
+R1
+R2
+w1620229165
+8E:/Uni/CA/CA#2/SignExtend.v
+FE:/Uni/CA/CA#2/SignExtend.v
+!i122 10
+R8
+R4
+r1
+!s85 0
+31
+!s108 1620229166.000000
+!s107 E:/Uni/CA/CA#2/SignExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/SignExtend.v|
+!i113 1
+R5
+R6
+n@sign@extend
