@@ -1,9 +1,9 @@
-E:/Uni/CA/CA#2/MemoryBlock.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/MemoryBlock.v
+E:/Uni/CA/CA#2/SignExtend.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/SignExtend.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MemoryBlock
+-- Compiling module SignExtend
 
 Top level modules:
-	MemoryBlock
+	SignExtend
 
 } {} {}} E:/Uni/CA/CA#2/ShiftLeft.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ShiftLeft.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -25,12 +25,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	Mux
-
-} {} {}} E:/Uni/CA/CA#2/ALU.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ALU.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU
-
-Top level modules:
-	ALU
 
 } {} {}}

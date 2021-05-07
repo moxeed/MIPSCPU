@@ -10,61 +10,85 @@ z2
 cModel Technology
 dE:/Uni/DLD Lab/Ex2/Modelsim
 vALU
-!s110 1620228097
+Z0 !s110 1620404588
 !i10b 1
-!s100 W4]FPM^0>5zoN5gNa8m>Q0
-Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IaAKVDfVS^c`837FT1j6o^0
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dE:/Uni/CA/CA#2
-w1620228095
+!s100 HX]K^f>5=DE?z3ha6WmB`2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhS]TifFTPTY[`PX240LlF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Uni/CA/CA#2
+w1620399881
 8E:/Uni/CA/CA#2/ALU.v
 FE:/Uni/CA/CA#2/ALU.v
-!i122 2
-Z3 L0 3 14
+!i122 15
+L0 3 15
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1620228097.000000
+Z5 !s108 1620404588.000000
 !s107 E:/Uni/CA/CA#2/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/ALU.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 n@a@l@u
-vMemoryBlock
-!s110 1620227936
+vDataPath
+!s110 1620405197
 !i10b 1
-!s100 gn9>X=>zI:?OP4dJozUoL0
-R0
-Ihn^4o0HdB>gBfziBIh=i<1
+!s100 fzZeAODa5NzK2b9=i`dRU0
 R1
+Ia7Az_zdNUDn?i5^L3RhfQ2
 R2
-w1620227935
+R3
+w1620405194
+8E:/Uni/CA/CA#2/DataPath.v
+FE:/Uni/CA/CA#2/DataPath.v
+!i122 17
+L0 3 74
+R4
+r1
+!s85 0
+31
+!s108 1620405197.000000
+!s107 E:/Uni/CA/CA#2/DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/DataPath.v|
+!i113 1
+R6
+R7
+n@data@path
+vMemoryBlock
+R0
+!i10b 1
+!s100 0:Z;W]VU1[<kzUlbUH`<D2
+R1
+I0h9HULbCL[NHKTV9enbf_0
+R2
+R3
+w1620403678
 8E:/Uni/CA/CA#2/MemoryBlock.v
 FE:/Uni/CA/CA#2/MemoryBlock.v
-!i122 1
+!i122 16
 L0 3 13
 R4
 r1
 !s85 0
 31
-!s108 1620227936.000000
+R5
 !s107 E:/Uni/CA/CA#2/MemoryBlock.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/MemoryBlock.v|
 !i113 1
-R5
 R6
+R7
 n@memory@block
 vMux
 !s110 1620228946
 !i10b 1
 !s100 RJfm[6:ZG:JfH[LGZobaT0
-R0
-I5L?JPeJUG2K9TSIQ:zZd90
 R1
+I5L?JPeJUG2K9TSIQ:zZd90
 R2
+R3
 w1620228670
 8E:/Uni/CA/CA#2/Mux.v
 FE:/Uni/CA/CA#2/Mux.v
@@ -74,82 +98,82 @@ R4
 r1
 !s85 0
 31
-Z7 !s108 1620228946.000000
+Z8 !s108 1620228946.000000
 !s107 E:/Uni/CA/CA#2/Mux.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/Mux.v|
 !i113 1
-R5
 R6
+R7
 n@mux
 vRegisterFile
-!s110 1620227901
+!s110 1620399250
 !i10b 1
-!s100 Bo=2am>2HNc<TE`lU7Z091
-R0
-IDB4TRN[N7f?eTMXhjCY;e1
+!s100 hgo^leI0C<_I9[4BjB6H=1
 R1
+IdE0GC:F;m]Tbc]GMD1]bn0
 R2
-w1620227898
+R3
+w1620399218
 8E:/Uni/CA/CA#2/RegisterFile.v
 FE:/Uni/CA/CA#2/RegisterFile.v
-!i122 0
-R3
+!i122 13
+L0 3 14
 R4
 r1
 !s85 0
 31
-!s108 1620227901.000000
+!s108 1620399250.000000
 !s107 E:/Uni/CA/CA#2/RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/RegisterFile.v|
 !i113 1
-R5
 R6
+R7
 n@register@file
 vShiftLeft
 !s110 1620228947
 !i10b 1
 !s100 N2OYj3^;3AKa5_3;2<z8b1
-R0
-I24mi<E75;F>3A0X1aG^ne2
 R1
+I24mi<E75;F>3A0X1aG^ne2
 R2
+R3
 w1620228765
 8E:/Uni/CA/CA#2/ShiftLeft.v
 FE:/Uni/CA/CA#2/ShiftLeft.v
 !i122 7
-Z8 L0 3 11
+Z9 L0 3 11
 R4
 r1
 !s85 0
 31
-R7
+R8
 !s107 E:/Uni/CA/CA#2/ShiftLeft.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/ShiftLeft.v|
 !i113 1
-R5
 R6
+R7
 n@shift@left
 vSignExtend
-!s110 1620229166
+!s110 1620238259
 !i10b 1
 !s100 h>7e[fB2aGcTY84m3ZbcA1
-R0
-IIT==n0A93<oPI5_]Pd:_D3
 R1
+IIT==n0A93<oPI5_]Pd:_D3
 R2
-w1620229165
+R3
+w1620229171
 8E:/Uni/CA/CA#2/SignExtend.v
 FE:/Uni/CA/CA#2/SignExtend.v
-!i122 10
-R8
+!i122 11
+R9
 R4
 r1
 !s85 0
 31
-!s108 1620229166.000000
+!s108 1620238257.000000
 !s107 E:/Uni/CA/CA#2/SignExtend.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/SignExtend.v|
 !i113 1
-R5
 R6
+R7
 n@sign@extend
