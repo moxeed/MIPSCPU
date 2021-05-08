@@ -1,16 +1,20 @@
 `timescale 1ns/1ns
 
-module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, zero);
+module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, zero, opCode, func);
     input clk;
 
     //pc
     wire [31:0] pcCurrAddr;
     wire [31:0] pcNextAddr;
     programCounter pc(clk, pcNextAddr, pcCurrAddr);
+
     //
 
     //Inst Mem
     wire [31:0] instruction;
+    output [5:0] opCode, fnuc;
+    assign opCode = instruction[31:26];
+    assign func = instruction[5:0];
     MemoryBlock instMem(clk, pcCurrAddr,1'b0,,instruction);
     //
     
@@ -26,6 +30,7 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
     assign pcSrcData[0] = pcCurrAddr + 4;
     assign pcSrcData[1] = {immediate[29:0], 2'b00};
     assign pcSrcData[2] = {pcCurrAddr[31:28], instruction[25:0], 2'b00};
+    assign pcSrcData[3] = regReadData1;
     Mux #(32, 4) pcSrcMux(pcSrcData, pcSrc, pcNextAddr);
     //
 

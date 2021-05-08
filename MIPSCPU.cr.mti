@@ -1,16 +1,16 @@
-E:/Uni/CA/CA#2/SignExtend.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/SignExtend.v
+E:/Uni/CA/CA#2/MemoryBlock.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/MemoryBlock.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module SignExtend
+-- Compiling module MemoryBlock
 
 Top level modules:
-	SignExtend
+	MemoryBlock
 
-} {} {}} E:/Uni/CA/CA#2/ShiftLeft.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ShiftLeft.v
+} {} {}} E:/Uni/CA/CA#2/ProgramCounter.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ProgramCounter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ShiftLeft
+-- Compiling module programCounter
 
 Top level modules:
-	ShiftLeft
+	programCounter
 
 } {} {}} E:/Uni/CA/CA#2/RegisterFile.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/RegisterFile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -19,11 +19,39 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	RegisterFile
 
+} {} {}} E:/Uni/CA/CA#2/ShiftLeft.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ShiftLeft.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftLeft
+
+Top level modules:
+	ShiftLeft
+
+} {} {}} E:/Uni/CA/CA#2/SignExtend.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/SignExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
 } {} {}} E:/Uni/CA/CA#2/Mux.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/Mux.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Mux
 
 Top level modules:
 	Mux
+
+} {} {}} E:/Uni/CA/CA#2/ALU.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/Uni/CA/CA#2/DataPath.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
 
 } {} {}}

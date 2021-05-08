@@ -34,23 +34,23 @@ Z6 o-work work
 Z7 tCvgOpt 0
 n@a@l@u
 vDataPath
-!s110 1620405197
+Z8 !s110 1620405407
 !i10b 1
 !s100 fzZeAODa5NzK2b9=i`dRU0
 R1
 Ia7Az_zdNUDn?i5^L3RhfQ2
 R2
 R3
-w1620405194
+w1620405392
 8E:/Uni/CA/CA#2/DataPath.v
 FE:/Uni/CA/CA#2/DataPath.v
-!i122 17
+!i122 19
 L0 3 74
 R4
 r1
 !s85 0
 31
-!s108 1620405197.000000
+Z9 !s108 1620405407.000000
 !s107 E:/Uni/CA/CA#2/DataPath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/DataPath.v|
 !i113 1
@@ -98,13 +98,37 @@ R4
 r1
 !s85 0
 31
-Z8 !s108 1620228946.000000
+Z10 !s108 1620228946.000000
 !s107 E:/Uni/CA/CA#2/Mux.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/Mux.v|
 !i113 1
 R6
 R7
 n@mux
+vprogramCounter
+R8
+!i10b 1
+!s100 3oK;:CYe28C0CFVnRAcC<2
+R1
+I[dV<al5TG94]=SfTecIBg0
+R2
+R3
+w1620400943
+8E:/Uni/CA/CA#2/ProgramCounter.v
+FE:/Uni/CA/CA#2/ProgramCounter.v
+!i122 20
+L0 1 8
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/Uni/CA/CA#2/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/ProgramCounter.v|
+!i113 1
+R6
+R7
+nprogram@counter
 vRegisterFile
 !s110 1620399250
 !i10b 1
@@ -141,12 +165,12 @@ w1620228765
 8E:/Uni/CA/CA#2/ShiftLeft.v
 FE:/Uni/CA/CA#2/ShiftLeft.v
 !i122 7
-Z9 L0 3 11
+Z11 L0 3 11
 R4
 r1
 !s85 0
 31
-R8
+R10
 !s107 E:/Uni/CA/CA#2/ShiftLeft.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni/CA/CA#2/ShiftLeft.v|
 !i113 1
@@ -165,7 +189,7 @@ w1620229171
 8E:/Uni/CA/CA#2/SignExtend.v
 FE:/Uni/CA/CA#2/SignExtend.v
 !i122 11
-R9
+R11
 R4
 r1
 !s85 0
