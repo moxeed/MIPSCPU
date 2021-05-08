@@ -12,7 +12,7 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
 
     //Inst Mem
     wire [31:0] instruction;
-    output [5:0] opCode, fnuc;
+    output [5:0] opCode, func;
     assign opCode = instruction[31:26];
     assign func = instruction[5:0];
     MemoryBlock instMem(clk, pcCurrAddr,1'b0,,instruction);
@@ -21,17 +21,6 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
     //Sign Extend
     wire [31:0] immediate;
     SignExtend signExtend(instruction[15:0], immediate);
-    //
-
-    //Next pc Path
-    input [1:0] pcSrc;
-
-    wire [31:0] pcSrcData[3:0];
-    assign pcSrcData[0] = pcCurrAddr + 4;
-    assign pcSrcData[1] = {immediate[29:0], 2'b00};
-    assign pcSrcData[2] = {pcCurrAddr[31:28], instruction[25:0], 2'b00};
-    assign pcSrcData[3] = regReadData1;
-    Mux #(32, 4) pcSrcMux(pcSrcData, pcSrc, pcNextAddr);
     //
 
     //Register File
@@ -48,6 +37,17 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
     RegisterFile registerFile(clk, instruction[25:21], instruction[20:16], waddr, regWrite, regWriteData, regReadData1, regReadData2);
     //
 
+    //Next pc Path
+    input [1:0] pcSrc;
+
+    wire [31:0] pcSrcData[3:0];
+    assign pcSrcData[0] = pcCurrAddr + 4;
+    assign pcSrcData[1] = {immediate[29:0], 2'b00};
+    assign pcSrcData[2] = {pcCurrAddr[31:28], instruction[25:0], 2'b00};
+    assign pcSrcData[3] = regReadData1;
+    Mux #(32, 4) pcSrcMux(pcSrcData, pcSrc, pcNextAddr);
+    //
+    
     //ALU
     input ALUSrc;
     input [1:0] ALUOp;
