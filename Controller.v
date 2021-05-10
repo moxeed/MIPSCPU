@@ -30,7 +30,7 @@ always@(opCode)begin
 end
 
 reg branchF;
-always@(func)begin
+always@(func, ALUcontrol)begin
 	ALUOp = 0;branchF=0;
 	if(ALUcontrol == 3)begin
 		case(func)
@@ -43,12 +43,12 @@ always@(func)begin
 	else
 		ALUOp = ALUcontrol;
 end
-always@(zero)begin
+always@(zero, branchOC)begin
 	pcSrc = 0;
 	if(branchF == 1) pcSrc = 3;
-	else if(branchOC == 1) pcSrc = {0,zero};
+	else if(branchOC == 1) pcSrc = {1'b0,zero};
 	else if(branchOC == 2) pcSrc = 2;
-	else if(branchOC == 3) pcSrc = {0,~zero};
+	else if(branchOC == 3) pcSrc = {1'b0,~zero};
 end
 
 endmodule

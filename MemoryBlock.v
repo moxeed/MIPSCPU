@@ -2,7 +2,7 @@
 
 module MemoryBlock (clk, addr, write, writeData, readData);
     input clk, write;
-    input [4:0] addr;
+    input [31:0] addr;
     input [31:0] writeData, readData;
 
     reg [31:0] file [65535:0];

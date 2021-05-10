@@ -1,0 +1,18 @@
+Mon May 10 10:08:27 +0430 2021
+Trace back: can't read "vsimMem(dataRadix:/MIPSCPUTB/UUT/dataPath/RAM/file)": no such element in array
+    while executing
+"lappend cmd "-fillradix" $vsimMem(dataRadix:$memHeadName)"
+    (procedure "Memtool::DoMemoryLoad" line 20)
+    invoked from within
+"Memtool::DoMemoryLoad .main_pane.memory.interior.cs.body "
+    invoked from within
+".memloaddialog.bb.ok invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .memloaddialog.bb.ok"
+    (command bound to event)
+  <2:D:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "vsimMem(dataRadix:/MIPSCPUTB/UUT/dataPath/RAM/file)": no such element in array}
+  <1:D:/mtitcl/vsim/forms.tc_:1532: ::tk::dialog::error::bgerror {can't read "vsimMem(dataRadix:/MIPSCPUTB/UUT/dataPath/RAM/file)": no such element in array}

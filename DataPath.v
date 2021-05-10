@@ -7,7 +7,6 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
     wire [31:0] pcCurrAddr;
     wire [31:0] pcNextAddr;
     programCounter pc(clk, pcNextAddr, pcCurrAddr);
-
     //
 
     //Inst Mem
@@ -31,8 +30,8 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
     wire [31:0] regWriteData, regReadData1, regReadData2;
     wire [4:0] regDstData[3:0];
     assign regDstData[0] = instruction[20:16];
-    assign regDstData[0] = instruction[16:11];
-    assign regDstData[0] = 5'b11111;
+    assign regDstData[1] = instruction[16:11];
+    assign regDstData[2] = 5'b11111;
     Mux #(5, 4) regWriteDstMux(regDstData, regDst, waddr);
     RegisterFile registerFile(clk, instruction[25:21], instruction[20:16], waddr, regWrite, regWriteData, regReadData1, regReadData2);
     //
@@ -71,10 +70,10 @@ module DataPath (clk, regSrc, regDst, pcSrc, ALUSrc, ALUOp, regWrite, memWrite, 
     //Memory Path
     input [1:0] regSrc;
 
-    wire [31:0] regSrcData[3:0];
+    wire [31:0] regSrcData[3:0];    
     assign regSrcData[0] = pcCurrAddr;
-    assign regSrcData[0] = memReadData;
-    assign regSrcData[0] = ALUResult;
+    assign regSrcData[1] = memReadData;
+    assign regSrcData[2] = ALUResult;
     Mux #(32, 4) regWriteSrcMux(regSrcData, regSrc, regWriteData);
     //
 

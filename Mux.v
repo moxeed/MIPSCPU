@@ -6,11 +6,11 @@ parameter dsize = 32;
 parameter dcount = 2;
 
 input [dsize-1:0] data[dcount-1:0];
-input [dcount <= 2  ? 1 :
-       dcount <= 4  ? 2 :
-       dcount <= 8  ? 3 :
-       dcount <= 16 ? 4 :
-       5: 0] select;
+input [dcount <= 2  ? 0 :
+       dcount <= 4  ? 1 :
+       dcount <= 8  ? 2 :
+       dcount <= 16 ? 3 :
+       4: 0] select;
 
 output [dsize-1:0]expose;
 

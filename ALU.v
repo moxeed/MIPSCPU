@@ -1,7 +1,7 @@
 `timescale 1ns/1ns
 
 module ALU (lop, rop, op, result, zero);
-    input [2:0] op;
+    input [1:0] op;
     input [31:0] lop, rop;
     output zero;
     output [31:0] result;

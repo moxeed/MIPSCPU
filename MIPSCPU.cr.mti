@@ -1,9 +1,9 @@
-E:/Uni/CA/CA#2/ProgramCounter.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ProgramCounter.v
+E:/Uni/CA/CA#2/Controller.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/Controller.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module programCounter
+-- Compiling module Controller
 
 Top level modules:
-	programCounter
+	Controller
 
 } {} {}} E:/Uni/CA/CA#2/MemoryBlock.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/MemoryBlock.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -12,12 +12,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MemoryBlock
 
-} {} {}} E:/Uni/CA/CA#2/SignExtend.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/SignExtend.v
+} {} {}} E:/Uni/CA/CA#2/ProgramCounter.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ProgramCounter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module SignExtend
+-- Compiling module programCounter
 
 Top level modules:
-	SignExtend
+	programCounter
+
+} {} {}} E:/Uni/CA/CA#2/RegisterFile.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} E:/Uni/CA/CA#2/MIPSCPU.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/MIPSCPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSCPU
+
+Top level modules:
+	MIPSCPU
 
 } {} {}} E:/Uni/CA/CA#2/ShiftLeft.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ShiftLeft.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -26,12 +40,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ShiftLeft
 
-} {} {}} E:/Uni/CA/CA#2/RegisterFile.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/RegisterFile.v
+} {} {}} E:/Uni/CA/CA#2/SignExtend.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/SignExtend.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module RegisterFile
+-- Compiling module SignExtend
 
 Top level modules:
-	RegisterFile
+	SignExtend
 
 } {} {}} E:/Uni/CA/CA#2/ALU.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/ALU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -46,5 +60,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	Mux
+
+} {} {}} E:/Uni/CA/CA#2/MIPSCPUTB.v {1 {vlog -work work -stats=none E:/Uni/CA/CA#2/MIPSCPUTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSCPUTB
+
+Top level modules:
+	MIPSCPUTB
 
 } {} {}}
